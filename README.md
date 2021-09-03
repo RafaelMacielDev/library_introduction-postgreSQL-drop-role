@@ -1,11 +1,11 @@
 <h1 align="center">
   <img alt="" title="to.do" src=".github/demostration_aplication.png" width="320px" />
   <br>
-  PostgreSQL Database Concepts and Best Practices module - DROP ROLE
+  PostgreSQL Database Concepts and Best Practices module - GRANT ALL ON TABLE
 </h1>
 
 <h3 align="justify">
-Instructions on how to drop a role via the DROP ROLE command on a database using pgAdmin4. In the same example it is recreated in an existing ROLE. Credits for Digital Innovation One's PostgreSQL database concepts and best practices module.
+Instructions on how to grant privileges to an existing table in a database using pgAdmin4. Credits for Digital Innovation One's PostgreSQL database concepts and best practices module.
 </h3>
 
 <br>
@@ -28,10 +28,7 @@ This project was developed with the following technologies:
 <br>
 
 ## ⚙ Settings
-- DROP ROLE "";
-- SELECT "";
-- RUN
-- CREATE ROLE "" LOGIN PASSWORD '' IN ROLE "";
+- GRANT ALL ON TABLE teste TO "";
 - SELECT "";
 - RUN
 <br>
